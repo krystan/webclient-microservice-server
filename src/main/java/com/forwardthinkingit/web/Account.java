@@ -3,7 +3,7 @@ package com.forwardthinkingit.web;
 import java.io.Serializable;
 
 public class Account implements Serializable {
-    private static final long SerialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
     private Long _amount;
     private String _number;
     private String _name;
