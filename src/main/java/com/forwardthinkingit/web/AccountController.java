@@ -8,14 +8,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class AccountController {
+
     @Autowired
     AccountRepository _accountRepository;
 
     @RequestMapping("/")
-    public String home() {
+    public String home(){
         return "index";
     }
-
     @RequestMapping("/accountList")
     public String accountList(Model model) {
         model.addAttribute("accounts", _accountRepository.getAllAccounts());

@@ -1,4 +1,5 @@
 # Service registers under this name
+# Service registers under this name
 # Control the InternalResourceViewResolver:
 spring:
   application:
@@ -18,4 +19,3 @@ eureka:
 error:
   whitelabel:
     enabled:  false
-      
