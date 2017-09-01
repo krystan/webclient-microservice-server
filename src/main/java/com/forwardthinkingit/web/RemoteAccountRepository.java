@@ -29,5 +29,4 @@ public class RemoteAccountRepository implements AccountRepository {
         return _restTemplate.getForObject(_serviceUrl + "/accounts/{id}",
                 Account.class, number);
     }
-
 }
